@@ -1,9 +1,9 @@
-p = input("Enter a number: ")
+# p = input("Enter a number: ")
 
-if p >= "10":
-    print("You entered "+p)
-else:
-    print("You did not enter a number greater than or equal to 10")
+# if p >= "10":
+#     print("You entered "+p)
+# else:
+#     print("You did not enter a number greater than or equal to 10")
 
 
 # if the_weather_is_good:
@@ -35,6 +35,8 @@ else:
 
 #loops  :  
 
-while True:
-    print("I'm stuck inside a loop.")
+# while True:
+#     print("I'm stuck inside a loop.")
  
+for b in range(1, 6, 8):
+    print("This is the current number: ", b)
