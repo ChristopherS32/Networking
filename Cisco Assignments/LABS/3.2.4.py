@@ -13,4 +13,7 @@ print(
 
 inpt = int(input("Enter your guess: "))
 if inpt == secret_number:
+    print("Well done, muggle! You are free now.")
 
+else:
+    print("Ha ha! You're stuck in my loop!")    
