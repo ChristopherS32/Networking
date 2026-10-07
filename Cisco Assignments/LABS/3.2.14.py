@@ -1,7 +1,11 @@
 blocks = int(input("Enter the number of blocks: "))
 
-#
-# Write your code here.
-#	
+height = 0
+current_layer_requirement = 1
 
-print("The height of the pyramid:", height)
+while blocks >= current_layer_requirement:
+    blocks -= current_layer_requirement
+    height += 1
+    current_layer_requirement += 1
+
+print("pyramid height:", height)
