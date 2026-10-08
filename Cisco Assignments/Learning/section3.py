@@ -43,20 +43,26 @@
 
 
 
-print("The break instruction:")
-for i in range(1, 6):
-    if i == 3:
-        break
-    print("Inside the loop.", i)
-print("Outside the loop.")
+# print("The break instruction:")
+# for i in range(1, 6):
+#     if i == 3:
+#         break
+#     print("Inside the loop.", i)
+# print("Outside the loop.")
 
 
-# continue - example
+# # continue - example
 
-print("\nThe continue instruction:")
-for i in range(1, 6):
-    if i == 3:
-        continue
-    print("Inside the loop.", i)
-print("Outside the loop.")
+# print("\nThe continue instruction:")
+# for i in range(1, 6):
+#     if i == 3:
+#         continue
+#     print("Inside the loop.", i)
+# print("Outside the loop.")
+
+my_list_1 = [1, 2, 3]
+my_list_2 = []
+for v in my_list_1:
+    my_list_2.insert(0, v)
+print(my_list_2)
 
